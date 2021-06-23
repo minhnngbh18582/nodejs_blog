@@ -8,6 +8,7 @@ const Course = new Schema(
     {
         name: { type: String, required: true, },
         description: { type: String, },
+        make: { type: String, },
         image: { type: String, },
         videoId: { type: String, required: true, },
         level: { type: String, },  
