@@ -11,12 +11,7 @@ class SiteController {
                 });
             })
             .catch(next);       
-    }
-
-    // [get] /search
-    search(req, res) {
-        res.render('search');
-    }
+    }     
 }
 
 module.exports = new SiteController();
